@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Ad Blocker",
+  "version": "1.0",
+  "description": "Block ads on all websites",
+  "permissions": ["storage", "scripting", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
