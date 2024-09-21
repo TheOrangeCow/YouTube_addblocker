@@ -1,5 +1,5 @@
 # YouTube addBlocker
-
+This is the first version to get the updated version go to [here](https://github.com/TheOrangeCow/Add_blocker)
 ## Installing in Chrome, Edge, and Firefox
 
 ### Google Chrome
